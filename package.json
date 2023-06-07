@@ -1,0 +1,23 @@
+{
+  "name": "quoter",
+  "version": "0.1.0",
+  "description": "Delivers Quote of the Day to your Terminal!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "quoter": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "quotes.json"
+  ],
+  "author": "Ashwath Bhat",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cheerio": "^1.9.0",
+    "request": "^2.88.0"
+  }
+}
